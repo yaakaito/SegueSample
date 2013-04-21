@@ -18,6 +18,7 @@
 		B99E97681724AD4600F4E6A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B99E97671724AD4600F4E6A0 /* Default-568h@2x.png */; };
 		B99E976B1724AD4600F4E6A0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99E97691724AD4600F4E6A0 /* MainStoryboard.storyboard */; };
 		B99E976E1724AD4600F4E6A0 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E976D1724AD4600F4E6A0 /* SSViewController.m */; };
+		B99E97761724ADD000F4E6A0 /* SSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E97751724ADD000F4E6A0 /* SSSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		B99E976A1724AD4600F4E6A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B99E976C1724AD4600F4E6A0 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
 		B99E976D1724AD4600F4E6A0 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		B99E97741724ADD000F4E6A0 /* SSSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSecondViewController.h; sourceTree = "<group>"; };
+		B99E97751724ADD000F4E6A0 /* SSSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B99E976C1724AD4600F4E6A0 /* SSViewController.h */,
 				B99E976D1724AD4600F4E6A0 /* SSViewController.m */,
 				B99E97581724AD4600F4E6A0 /* Supporting Files */,
+				B99E97741724ADD000F4E6A0 /* SSSecondViewController.h */,
+				B99E97751724ADD000F4E6A0 /* SSSecondViewController.m */,
 			);
 			path = SegueSample;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				B99E975E1724AD4600F4E6A0 /* main.m in Sources */,
 				B99E97621724AD4600F4E6A0 /* SSAppDelegate.m in Sources */,
 				B99E976E1724AD4600F4E6A0 /* SSViewController.m in Sources */,
+				B99E97761724ADD000F4E6A0 /* SSSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,13 @@
 //
 
 #import "SSViewController.h"
+#import "SSSecondViewController.h"
 
-@interface SSViewController ()
+@interface SSViewController () <SSSecondViewControllerDelegate>
 
 @end
 
-@implementation SSViewController
+@implementation SSViewController 
 
 - (void)viewDidLoad
 {
@@ -24,6 +25,18 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([segue.identifier isEqualToString:@"TopToSecond"]) {
+        NSLog(@"%@", segue.destinationViewController);
+        ((SSSecondViewController *)segue.destinationViewController).delegate = self;
+    }
+}
+
+- (void)willBack:(id)obj {
+    NSLog(@"%@", obj);
 }
 
 @end
