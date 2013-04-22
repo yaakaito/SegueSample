@@ -47,6 +47,8 @@
         NSLog(@"%@", sender);
     }
 }
-
+- (IBAction)touchDismiss:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end
